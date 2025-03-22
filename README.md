@@ -4,7 +4,7 @@
 
 **Supported** Although not part of the main Ares code release, this is a supported plugin.  Report any problems you encounter: https://aresmush.com/feedback
 
-Designed for AresMUSH 1.0
+See release notes to determine which versions of AresMUSH are compatible.
 
 ## Overview
 
@@ -23,7 +23,12 @@ There are no config options.
 
 ## Uninstalling
 
-Removing the plugin requires some code fiddling.  See [Uninstalling Plugins](https://www.aresmush.com/tutorials/code/extras.html#uninstalling-plugins).
+To remove the plugin:
+
+1. Manually remove all plugin's files from your server (and GitHub fork, if applicable), including:
+    * aresmush/plugins/dice
+    * Web portal files - See the /webportal folder in this repo for a specific list of files.
+2. [Restart the game engine](https://aresmush.com/tutorials/manage/shutdown.html).
 
 ## License
 
